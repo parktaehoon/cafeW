@@ -2,6 +2,7 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 @import url(./variable.css);
 @import url(./default.css);
+@import url(./component.css);
 @import url(./header.css);
 @import url(./navigation.css);
 @import url(./footer.css);

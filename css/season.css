@@ -9,28 +9,25 @@
 }
 
 
-/*시즌 섹션 (배경색상 지정)*/
+/* 시즌 섹션 (배경색상 지정) */
 .season{
   background-color: var(--season-bg-color);
 }
-/*시즌 컨테이너 (가로크기 지정) */
+/* 시즌 컨테이너 (가로크기 지정) */
 .season__container{
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 83px 919px 120px 119px;
-  /* background-color: darkblue; */
   position: relative;
   text-align: center;
 }
 
-/*시즌 음료 소개 코멘트*/
+/* 시즌 음료 소개 코멘트 */
 .season__description{
   color: var(--season-text-color);
-  /* width: 402px; */
-
   padding-bottom: 15px;
-  border-bottom: 1px solid var(--season-border-color);
+  border-bottom: 1px solid var(--season-text-color);
   font-family: var(--font-en-sanfrancisco), sans-serif;
 }
 [class^="season__description-text"]{
@@ -60,16 +57,15 @@
 .season__description-text4{
   font-size: 9rem;
   color: var(--season-text-color2);
+  font-weight: 700;
   text-transform: uppercase;
-
 }
 .season__description-text5{
   font-size: 2.6rem;
 }
 
-/* 시즌 음료 리스느 */
+/* 시즌 음료 리스트 */
 .season__beverage-list{
-  background-color: pink;
   position: absolute;
   width: 919px;
   top: 0;
@@ -103,13 +99,13 @@
   animation-delay: 400ms;
   /* background-color: yellow; */
 }
+
 .season__beverage-item img{
   width: 100%;
   height: 100%;
 }
-/* 자세히 보기 */
-.season__more{
-  /* background-color: green; */
+/* 자세히 보기 링크 */
+.season__more{ 
   display: inline-block;
   margin-top: 40px;
   height: 39px;

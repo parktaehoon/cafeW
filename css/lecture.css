@@ -1,6 +1,6 @@
-/* 추천강좌배경지정 */
+/* 추천 강좌 배경 지정 */
 .lecture{
-  background-color: #fff;
+  background: #fff;
 }
 
 /* lecture 컨테이너 */
@@ -10,7 +10,7 @@
   margin-right: auto;
   background-color: darkblue;
 }
-/* 탭메뉴 */
+/* 탭 메뉴 */
 .tab-list{
   margin: 0;
   display: flex;
@@ -21,17 +21,18 @@
 }
 .tab{
   display: block;
-  background-color: var(--lecture-dark-color);
-  height: 64px;
+  background: var(--lecture-dark-color);
+  height: 64px;  
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: flex-end;
 }
-.tab[aria-selected="true"]{
-  background-color: #fff;
+.tab[aria-selected='true']{
+  background: #fff;
   color: var(--lecture-dark-color);
 }
+
 .tab::after{
   content: "";
   width: 24px;
@@ -40,19 +41,18 @@
   margin-right: 20px;
   background: url(./../images/icon-down.svg) no-repeat 0 0 / 100% 100%;
 }
+
 .tab[aria-selected='true']::after{
   background-image: url(./../images/icon-up.svg);
 }
 
 .lecture__panel{
-  background-color: green;
+  background: green;
   position: relative;
   display: flex;
   flex-flow: row wrap;
   padding: 40px 108px 38px 108px;
-
 }
-
 .button-prev, .button-next{
   border: 0;
   padding: 0;
@@ -60,11 +60,9 @@
   position: absolute;
   top: 0;
 }
-
 .button-prev{
   left: 0;
 }
-
 .button-next{
   right: 0;
 }
@@ -78,4 +76,65 @@
 .lecture__control-bar{
   width: 100%;
   background-color: yellow;
+}
+
+/* 카드 앞면 */
+.front{
+  width: 590px;
+  height: 424px;
+  padding-top: 212px;
+  background-repeat:  no-repeat;
+  background-position: 50% 0;
+  border-radius: 3px;
+  filter: drop-shadow(0px 2px 10px rgba(77, 46, 46, 0.1));
+  display: none;
+}
+/* .lecture__panel .lecture__detail:nth-of-type(1) .front{
+  background-image: url(./../images/image06.png);
+}
+.lecture__panel .lecture__detail:nth-of-type(2) .front{
+  background-image: url(./../images/image05.png);
+} */
+.front.git{
+  background-image: url(./../images/image06.png);
+}
+.front.rwd{
+  background-image: url(./../images/image05.png);
+}
+
+.front__container{
+  background: var(--primary-bg-color);
+  height: 212px;
+  padding: 30px 0;
+  text-align: center;
+}
+.lecture__title{
+  margin: 0;
+}
+[class^="lecture__title"]{
+  display: block;
+}
+.lecture__title-en{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.lecture__title-ko{
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 10px 0 25px;
+}
+
+.front:hover .front__container{
+  background: var(--primary-color);
+  color: 
+}
+.front:hover .lecture__title-en{
+  color: var(--primary-color2);
+}
+.front:hover .lecture__title-ko{
+  color: var(--primary-color3);
+}
+.front:hover .button-stroke{
+  color: var(--primary-bg-color);
+  border-color:  var(--primary-bg-color);
 }

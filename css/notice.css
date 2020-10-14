@@ -17,18 +17,18 @@
   flex-flow: row nowrap;
   align-items: center;
 }
-/*공지사항 목록*/
+/* 공지사항 목록 */
 .notice__inform-list{
-margin: 0 30px 0 0;
-height: 24px;
-overflow: hidden;
-flex-grow: 1;
+  margin: 0 30px 0 0;
+  height: 24px;
+  overflow: hidden;
+  flex-grow: 1;
 }
 .notice__inform-item{
-height: 24px;
-display: flex;
-flex-flow: row nowrap;
-align-items: center;
+  height: 24px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 .notice__inform-item::before{
   content: "";
@@ -44,10 +44,10 @@ align-items: center;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 /* 공지사항 닫기 버튼 */
 .close-button{
   border: 0;
   background-color: transparent;
   padding: 0;
-
 }
