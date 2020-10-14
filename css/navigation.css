@@ -1,0 +1,26 @@
+/*메인메뉴*/
+.navigation__menu-list{
+  width: 1440px;
+  margin: 0 auto;
+  padding: 47px 120px;
+  padding-left: 120px;
+  padding-right: 164px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.navigation__menu-item > a{
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--font-en-sanfrancisco);
+}
+
+.navigation__sub-menu-list{
+  margin: 9px 0 0 0;
+}
+
+.navigation__sub-menu-list li:nth-child(n+2){
+  margin-top: 7px;
+}

@@ -1,0 +1,71 @@
+.header{
+  border-bottom: 1px solid var(--parmary-border-color);
+}
+/* 헤더 컨테이너 */
+.header__container{
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center; /* 세로정렬 */
+}
+
+/* 로고 */
+.header__logo{
+  width: 100px;
+  height: 40px;
+}
+.header__logo a{
+  display: block;
+}
+
+.header__logo img{
+  width: 100%;
+  height: 100%;
+}
+
+/* 로그인 및 회원가입 링크 */
+.header__member-list{
+  order: -1;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: var(--text-normal);
+  font-family: var(--font-en-sanfrancisco);
+}
+
+/* 왼쪽 여백이 있는 여러개 중 가장 처음 여백 삭제 */
+.header__member-item{
+  margin-left: 30px;
+}
+.header__member-item:first-child{
+  margin-left: 0px;
+}
+
+/* 검색 폼 */
+.search{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-bottom: 1px solid var(--parmary-border-color);
+}
+
+.search__input-container input{
+  background-color: transparent;
+  height: 40px;
+  padding: 0 0 0 0.5em;
+  border: 0;
+  width: 100%;
+  color: var(--parmary-border-color);
+}
+
+
+.search__button-container button{
+  background-color: transparent;
+  height: 40px;
+  padding: 0;
+  border: 0;
+}

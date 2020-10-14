@@ -1,0 +1,13 @@
+:root {
+  --parmary-bg-color: #282725;
+  --season-bg-color: #f3d6b0;
+  --notice-bg-color: rgb(226, 119, 98, 0.9);
+  --lecture-dark-color: #282725;
+  --season-text-color: #a37356;
+  --season-text-color2: #e27762;
+  --parmary-color: #FFFCF9;
+  --parmary-border-color: rgba(255, 252, 249, 0.5); /*선을 얇게 보임*/
+  --season-border-color: rgba(163, 155, 86, 0.5); /*선을 얇게 보임*/
+  --text-normal: 1.6rem;
+  --font-en-sanfrancisco: 'San Francisco';
+}

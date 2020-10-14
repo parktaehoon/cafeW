@@ -1,0 +1,81 @@
+/* 추천강좌배경지정 */
+.lecture{
+  background-color: #fff;
+}
+
+/* lecture 컨테이너 */
+.lecture__container{
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkblue;
+}
+/* 탭메뉴 */
+.tab-list{
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.tab-list li{
+  width: 50%;
+}
+.tab{
+  display: block;
+  background-color: var(--lecture-dark-color);
+  height: 64px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.tab[aria-selected="true"]{
+  background-color: #fff;
+  color: var(--lecture-dark-color);
+}
+.tab::after{
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: url(./../images/icon-down.svg) no-repeat 0 0 / 100% 100%;
+}
+.tab[aria-selected='true']::after{
+  background-image: url(./../images/icon-up.svg);
+}
+
+.lecture__panel{
+  background-color: green;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px 108px 38px 108px;
+
+}
+
+.button-prev, .button-next{
+  border: 0;
+  padding: 0;
+  background: transparent;
+  position: absolute;
+  top: 0;
+}
+
+.button-prev{
+  left: 0;
+}
+
+.button-next{
+  right: 0;
+}
+
+.lecture__detail{
+  width: 590px;
+  height: 424px;
+  margin: 0 11px;
+  background-color: blueviolet;
+}
+.lecture__control-bar{
+  width: 100%;
+  background-color: yellow;
+}
