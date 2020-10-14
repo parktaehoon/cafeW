@@ -1,0 +1,60 @@
+.review-favorite-container{
+  background: var(--primary-bg-color3);
+}
+
+.review-favorite-container .layout-width{
+  padding: 30px 120px;
+}
+/* 리뷰 영역 */
+.review{
+  position: relative;
+  width: 743px;
+  height: 400px;
+  padding: 90px 160px 90px 91px;
+  background: var(--primary-bg-color);
+  overflow: hidden;
+}
+.review__title{
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.review__content{
+  line-height: 1.8;
+  margin: 10px 0 19px;
+}
+
+/* 강의 평점 */
+
+.review .star-point__detail span{
+  margin-right: 15px;
+  font-size: 2.2rem;
+}
+
+.review span.star-point__count{
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-25%);
+  margin-right: 0;
+  font-size: 60rem;
+  width: 334px;
+  height: 840px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color4);
+}
+
+/* 리뷰 작성자 */
+.review__author{
+  margin-top: 20px;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+.review .button-play{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}

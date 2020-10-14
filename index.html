@@ -192,9 +192,9 @@
                 <div class="back__container">
                   <p class="lecture__title-en">Git & HTML/CSS</p>
                   <p class="lecture__title-ko">입문자를 위한 Git과 HTML&CSS</p>
-                  <dl class="lecture__point">
+                  <dl class="star-point">
                     <dt class="a11y-hidden">강의평점</dt>
-                    <dd>
+                    <dd class="star-point__detail">
                       <span aria-hidden="true">
                         <svg width="124" height="23" viewBox="0 0 124 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M11.1847 0L13.6958 7.72828H21.8218L15.2477 12.5046L17.7588 20.2329L11.1847 15.4566L4.61063 20.2329L7.1217 12.5046L0.547638 7.72828H8.67363L11.1847 0Z" fill="#FFFCF9"/>
@@ -259,9 +259,9 @@
                 <div class="back__container">
                   <p class="lecture__title-en">Responsive Web Design Strategies</p>
                   <p class="lecture__title-ko">반응형 웹디자인 전략</p>
-                  <dl class="lecture__point">
+                  <dl class="star-point">
                     <dt class="a11y-hidden">강의평점</dt>
-                    <dd>
+                    <dd class="star-point__detail">
                       <span aria-hidden="true">
                         <svg width="124" height="23" viewBox="0 0 124 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M11.1847 0L13.6958 7.72828H21.8218L15.2477 12.5046L17.7588 20.2329L11.1847 15.4566L4.61063 20.2329L7.1217 12.5046L0.547638 7.72828H8.67363L11.1847 0Z" fill="#FFFCF9"/>
@@ -314,7 +314,7 @@
   
           <div class="lecture__control-bar">
             <button type="button" class="button-play" aria-label="강좌 슬라이드 재생">
-              <span class="ir"></span>
+              <span class="ir dark"></span>
             </button>
             <ol class="indicator-list">
               <li class="indicator-item" aria-label="입문자를 위한 Git과 HTML/CSS" aria-current="true"></li>
@@ -325,6 +325,73 @@
         </div>
       </div>
     </section>
+    <div class="layout-full review-favorite-container">
+      <div class="layout-width">
+        <section class="review">
+          <h2 class="a11y-hidden">강의 리뷰</h2>
+          <article class="review__article">
+              <button class="button-play">
+                <span class="ir light"></span>
+              </button>
+            <h3 class="review__title">무엇이 중요한지 알게된 시간!</h3>
+            <p class="review__content">
+              제가 들었던 해외 튜토리얼에 비해 시맨틱한 마크업과 접근성 비중이 크게 다뤄져 좋았습니다. 많은 튜토리얼들이 디자인을 어떻게 구현하는지에만 초점이 맞춰져 있잖아요. 무엇이 중요한지 알게되어 많은 도음이 되었습니다.
+            </p>
+            <dl class="star-point">
+              <dt class="a11y-hidden">강의평점</dt>
+              <dd class="star-point__detail">
+                <span aria-hidden="true">
+                  <svg width="160" height="30" viewBox="0 0 160 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.4 0L17.633 9.95016H28.0952L19.6311 16.0997L22.8641 26.0498L14.4 19.9003L5.93589 26.0498L9.1689 16.0997L0.704788 9.95016H11.167L14.4 0Z" fill="#FFFCF9"/>
+                    <path d="M47.5 0L50.7555 10.0193L61.2903 10.0193L52.7674 16.2115L56.0229 26.2307L47.5 20.0385L38.9771 26.2307L42.2326 16.2115L33.7097 10.0193L44.2445 10.0193L47.5 0Z" fill="#FFFCF9"/>
+                    <path d="M80.5 0L83.7555 10.0193L94.2903 10.0193L85.7674 16.2115L89.0229 26.2307L80.5 20.0385L71.9771 26.2307L75.2326 16.2115L66.7097 10.0193L77.2445 10.0193L80.5 0Z" fill="#FFFCF9"/>
+                    <path d="M112.5 0L115.755 10.0193L126.29 10.0193L117.767 16.2115L121.023 26.2307L112.5 20.0385L103.977 26.2307L107.233 16.2115L98.7097 10.0193L109.245 10.0193L112.5 0Z" fill="#FFFCF9"/>
+                    <path d="M145.5 0L148.755 10.0193L159.29 10.0193L150.767 16.2115L154.023 26.2307L145.5 20.0385L136.977 26.2307L140.233 16.2115L131.71 10.0193L142.245 10.0193L145.5 0Z" fill="#FFFCF9"/>
+                    </svg>                  
+                </span>
+                <span>5점</span>
+                <span class="star-point__count" aria-hidden="true">5</span>
+              </dd>
+            </dl>
+            <footer class="review__author">
+              <p class="review__author-name">
+                <span class="a11y-hidden">리뷰 작성자</span>
+                <span>김데레사</span>
+              </p>
+            </footer>
+          </article>
+        </section>
+        <section class="favorite">
+          <div class="favorite__container">
+            <h2 class="favorite__title">카페 W 인기 강좌</h2>
+            <ol class="favorite__lecture-list">
+              <li class="favorite__lecture-item">
+                <a href="#">인터렉션 주니어</a> <em class="up" aria-label="순위 상승"></em>
+              </li>
+              <li class="favorite__lecture-item">
+                <a href="#">모바일 웹 UI 제작 실습</a> <em class="new" aria-label="순위 진입"></em>
+              </li>
+              <li class="favorite__lecture-item">
+                <a href="#">UI 구조  &디자인</a> <em class="down"" aria-label="순위 하락"></em>
+              </li>
+              <li class="favorite__lecture-item">
+                <a href="#">React 프로그래밍</a> <em class="stop" aria-label="순위 변동없음"></em>
+              </li>
+            </ol>
+            <a href="#" class="favorite__more">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <title>카페 W 강좌 더보기</title>
+                <path d="M12.8 7.69995V8.29995H8.29995V12.8H7.69995V8.29995H3.19995V7.69995H7.69995V3.19995H8.29995V7.69995H12.8Z" fill="#E27762"/>
+                <path d="M0 0V-2H-2V0H0ZM16 0H18V-2H16V0ZM16 16V18H18V16H16ZM0 16H-2V18H0V16ZM0 2H16V-2H0V2ZM14 0V16H18V0H14ZM16 14H0V18H16V14ZM2 16V0H-2V16H2Z" fill="#E27762"/>
+              </svg>                
+            </a>
+          </div>
+          <div class="favorite__lecture-download">
+            <a href="#">브로슈어<br />다운받기</a>
+          </div>
+        </section>
+      </div>
+    </div>
   </main>
   <footer class="footer">
     <figure class="footer__logo">

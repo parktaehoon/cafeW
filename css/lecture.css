@@ -167,14 +167,11 @@
   top: 27px;
   right: 27px;
 }
-.lecture__point dd{
-  margin-left: 0;
+
+/* 강의 평점 */
+
+.lecture__detail .star-point__detail span{
   font-size: 1.8rem;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-start;
-}
-.lecture__point span{
   margin-right: 12px;
 }
 

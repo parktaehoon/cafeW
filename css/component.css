@@ -1,4 +1,8 @@
-
+/* 레이아웃 - 1440px, 가운데 정렬 */
+.layout-width{
+  width: 1440px;
+  margin: 0 auto;
+}
 /* 버튼 스타일 */
 /* 아웃라인 유형 */
 .button-stroke{
@@ -47,9 +51,27 @@
   width: 100%;
   height: 100%;
 }
-.button-play .ir{
+.button-play .dark{
   background: url(./../images/icon-play.svg);
 }
-.button-pause .ir{
+.button-pause .dark{
   background: url(./../images/icon-pause.svg);
+}
+.button-play .light{
+  background: url(./../images/icon-play-light.svg);
+}
+.button-pause .light{
+  background: url(./../images/icon-pause-light.svg);
+}
+
+/* 별점 스타일 */
+.star-point__detail {
+  margin-left: 0;
+  font-size: 1.8rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+}
+.star-point__detail span{
+  margin-right: 12px;
 }
