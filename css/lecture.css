@@ -137,7 +137,6 @@
 }
 .front:hover .front__container{
   background: var(--primary-color);
-  color: 
 }
 .front:hover .lecture__title-en{
   color: var(--primary-color2);
