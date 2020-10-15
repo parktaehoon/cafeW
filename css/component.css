@@ -1,9 +1,3 @@
-/* 레이아웃  - 1440px, 가운데 정렬 */
-.layout-width{
-  width: 1440px;
-  margin: 0 auto;
-}
-
 /* 버튼 스타일 */
 /* 아웃라인 유형 */
 .button-stroke{
@@ -75,4 +69,8 @@
 }
 .star-point__detail span{
   margin-right: 12px;
+}
+/* 줄바꿈 */
+.line-break{
+  display: block;
 }
