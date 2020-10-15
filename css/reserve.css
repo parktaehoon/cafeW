@@ -1,8 +1,79 @@
-.reserve-container{
-  
-}
-.reserve-container .layout-width{
+/* .reserve-container .layout-width{
+  margin: 0 auto;
   width: 1440px;
   height: 458px;
-  background: url(./../images/reserve-bg.jpg) no-repeat 0 0 / cover;
+  background: url(./../images/reserve-bg.jpg) no-repeat 0 0/ 100% 100%;
+}
+.layout-width{
+  position: relative;
+}
+.reserve{
+  color: var(--season-text-color);
+  position: absolute;
+  top: 80px;
+  left: 224px;
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.reserve__title{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.reserve__subtitle{
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+.reserve__description{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.3;
+  width: 192px;
+  height: 42px;
+  margin: 15px 0 20px 0;
+}
+.reserve__more{
+  width: 127px;
+  height: 39px;
+}
+.reserve__bg-container{
+  top: 124px;
+  left: 120px;
+
+} */
+
+.reserve{
+  position: relative;
+  height: 458px;
+  padding: 90px 0 0 224px;
+  color: var(--season-text-color);
+  background: radial-gradient(109.05% 429.25% at 50% 50%, rgba(23, 15, 4, 0) 0%, #3c1d0a 100%), url(./../images/reserve-bg.jpg) no-repeat 50% 0 / 100%;
+}
+.reserve__title{
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.reserve__subtitle{
+  font-size: 2.6rem;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+.reserve__description{
+  width: 192px;
+  font-size: 1.6rem;
+  line-height: 1.3;
+}
+.reserve__more{
+  display: inline-block;
+  margin-top: 20px;
+  border-color: var(--season-text-color);
+  color: var(--season-text-color);
+}
+.reserve__bg-container{
+  position: absolute;
+  top: 124px;
+  left: 120px;
 }

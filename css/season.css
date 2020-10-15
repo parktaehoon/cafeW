@@ -26,7 +26,6 @@
   color: var(--season-text-color);
   padding-bottom: 15px;
   border-bottom: 1px solid var(--season-text-color);
-  font-family: var(--font-en-sanfrancisco), sans-serif;
 }
 [class^="season__description-text"]{
   display: block;

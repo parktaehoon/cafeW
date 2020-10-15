@@ -9,7 +9,6 @@
 .navigation__menu-item > a{
   font-size: 2rem;
   font-weight: 700;
-  font-family: var(--font-en-sanfrancisco);
 }
 .navigation__sub-menu-list{
   margin: 9px 0 0 0;

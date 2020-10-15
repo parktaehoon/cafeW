@@ -30,7 +30,6 @@
   display: flex;
   flex-flow: row nowrap;
   font-size: var(--text-normal);
-  font-family: var(--font-en-sanfrancisco);
 }
 
 .header__member-item:nth-child(n+2){

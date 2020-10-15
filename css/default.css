@@ -1,8 +1,8 @@
-@font-face {
+/* @font-face {
   font-family: "San Francisco";
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
+} */
 @import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 /* 숨김 콘텐츠 */
