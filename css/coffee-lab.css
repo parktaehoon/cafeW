@@ -1,0 +1,9 @@
+.coffee-lab-container{
+  background: var(--primary-bg-color4);
+}
+.coffee-lab-container .layout-width{
+  background: var(--primary-color);
+}
+.coffee-lab{
+  color: #000;
+}

@@ -12,13 +12,13 @@
   margin: 0 0 40px;
   line-height: 0.8;
 }
-.pick__title--large{
+.pick--large{
   font-size: 15.5rem;
 }
-.pick__title--medium{
+.pick--medium{
   font-size: 13.3rem;
 }
-.pick__title--small{
+.pick--small{
   font-size: 7.4rem;
 }
 .pick__description{
