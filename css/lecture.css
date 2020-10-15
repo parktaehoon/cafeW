@@ -1,14 +1,8 @@
 /* 추천 강좌 배경 지정 */
-.lecture{
+.lecture-container{
   background: #fff;
 }
 
-/* lecture 컨테이너 */
-.lecture__container{
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-}
 /* 탭 메뉴 */
 .tab-list{
   margin: 0;
@@ -137,6 +131,7 @@
 }
 .front:hover .front__container{
   background: var(--primary-color);
+  color: 
 }
 .front:hover .lecture__title-en{
   color: var(--primary-color2);
@@ -168,7 +163,6 @@
 }
 
 /* 강의 평점 */
-
 .lecture__detail .star-point__detail span{
   font-size: 1.8rem;
   margin-right: 12px;

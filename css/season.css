@@ -10,14 +10,12 @@
 
 
 /* 시즌 섹션 (배경색상 지정) */
-.season{
+.season-container{
   background-color: var(--season-bg-color);
 }
-/* 시즌 컨테이너 (가로크기 지정) */
-.season__container{
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+
+/* 시즌 섹션 */
+.season{
   padding: 83px 919px 120px 119px;
   position: relative;
   text-align: center;

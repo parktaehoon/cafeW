@@ -1,11 +1,8 @@
-.header{
+.header-container{
   border-bottom: 1px solid var(--primary-border-color);
 }
-/* 헤더 컨테이너 */
-.header__container{
-  width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+/* 헤더 */
+.header{
   padding-left: 120px;
   padding-right: 120px;
   display: flex;

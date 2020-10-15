@@ -1,0 +1,8 @@
+.reserve-container{
+  
+}
+.reserve-container .layout-width{
+  width: 1440px;
+  height: 458px;
+  background: url(./../images/reserve-bg.jpg) no-repeat 0 0 / cover;
+}
