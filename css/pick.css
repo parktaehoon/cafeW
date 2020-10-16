@@ -1,6 +1,8 @@
+.pick-container{
+  background: url(./../images/image10.png) no-repeat 0 0 / 100% 100%;
+}
 .pick{
   height: 852px;
-  background: url(./../images/image10.png) no-repeat 0 0 / 100% 100%;
   color: var(--primary-color);
   padding: 110px 877px 0 0px;
   text-align: right;

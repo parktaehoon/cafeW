@@ -1,0 +1,78 @@
+.euid-container .layout-width{
+  background: url(./../images/image07.png) no-repeat 50% 0 / 100% 100%;
+}
+.euid{
+  height: 540px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.medal{
+  width: 300px;
+  height: 300px;
+  color: var(--primary-bg-color3);
+}
+.medal:hover .medal__face, .medal:focus .medal__face{
+  transform: rotateY(180deg);
+}
+.medal__face{
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.medal__face--front, .medal__face--back{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: var(--primary-color);
+  backface-visibility: hidden;
+}
+.medal__face--front{
+  width: 180px;
+  height: 180px;
+  justify-content: center;
+}
+.medal__face--back{
+  width: 300px;
+  height: 300px;
+  padding: 80px 24px 0;
+  transform: rotateY(180deg);
+}
+.euid__introduce{
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.euid__title{
+  font-weight: 700;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+.euid__description{
+  font-size: 1.6rem;
+  margin-left: 0;
+}
+.euid--bold{
+  font-weight: 700;
+  font-style: normal;
+}
+.euid__more{
+  border-color: var(--primary-bg-color3);
+  color: var(--primary-bg-color3);
+  font-size: 1.6rem;
+  margin-top: 18px;
+}
